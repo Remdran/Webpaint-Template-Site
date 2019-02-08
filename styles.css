@@ -54,3 +54,165 @@ nav ul li a {
 .active a {
 	color: #c95751;
 }
+
+.brand-panel {
+	background-color: #2a2a2a;
+	color: #9c9c9c;
+	text-align: center;
+}
+
+.brand-panel h2 {
+	font-size: 60px;
+	font-weight: normal;
+	margin-top: 0;
+	padding-top: 50px;
+	margin-bottom: 40px;
+}
+
+.brand-panel h2 span {
+	font-weight: bold;
+	color: #d9d9d9;
+}
+
+.brand-panel h3 {
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.btn-portfolio {
+	background-color: #ff6761;
+	color: #fff;
+	padding: 20px 60px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	border-radius: 5%;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.selling-points {
+	background-color: #f8f8f8;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.selling-point-row {
+	justify-content: space-evenly;
+}
+
+.icon {
+	flex: 1 0 23%;
+	text-align: center;
+	padding: 1%;
+	color: #606060;
+	line-height: 1.6em;
+}
+
+.icon h3 {
+	font-size: 20px;
+}
+
+.icon p {
+	font-size: 16px;
+}
+
+.featured-works {
+	background-color: #fff;
+	padding-top: 40px;
+	color: #606060;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.featured-works h2 {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.featured-works h3 {
+	font-weight: normal;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+.featured-works button {
+	background-color: #ff6761;
+	color: #fff;
+	padding: 10px 30px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	border-radius: 5%;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.featured-works button:first-of-type {
+	background-color: #595959;
+}
+
+.thumbs-row {
+	flex-wrap: wrap;
+}
+
+.thumbs-row img {
+	width: 100%;
+	flex: 0 0 23%;
+	margin-bottom: 0.4%;
+	margin-right: 0.4%;
+}
+
+footer {
+	background-color: #313131;
+	text-align: center;
+}
+
+footer h3 {
+	padding-top: 50px;
+	color: #d9d9d9;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.footer-title-sub {
+	color: #9c9c9c;
+	font-size: 20px;
+	margin-bottom: 35px;
+}
+
+.address {
+	color: #9c9c9c;
+}
+
+.loc {
+	padding-left: 15px;
+	background: url(images/loc.jpg) no-repeat;
+	padding-right: 30px;
+}
+
+.phone {
+	padding-left: 20px;
+	background: url(images/phone.jpg) no-repeat;
+}
+
+.social {
+	margin-top: 30px;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.social li {
+	padding: 5px;
+	cursor: pointer;
+}
+
+.copy {
+	background-color: #2c2c2c;
+	padding: 25px;
+	color: #9c9c9c;
+}
